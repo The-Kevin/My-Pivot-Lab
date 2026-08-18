@@ -51,7 +51,7 @@ services:
       /bin/sh -c "apt-get update && apt-get install -y iproute2 iputils-ping curl ssh openssh-server socat proxychains4 && mkdir -p /run/sshd && /usr/sbin/sshd && sleep infinity"
 
   target03:
-    image: dockur/windows
+    image: dockurr/windows
     hostname: target03_windows
     container_name: target03
     privileged: true
